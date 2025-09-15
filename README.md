@@ -43,8 +43,6 @@ Lates data:
 Вывод лога zabbix-агента:
 <img src = "img/task_2_05.png" width = 100%>
 
-tcpdump обмена zabbix-агента с сервером:
-<img src = "img/task_2_06.png" width = 100%>
 
 ```
 Установка zabbix agent на VM с ubuntu (noble):
@@ -56,6 +54,7 @@ sudo apt install zabbix-agent
 sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent
 sudo sed -i 's/Server=127.0.0.1/Server=192.168.0.11/g' /etc/zabbix/zabbix_agentd.conf
+sudo sed -i 's/ServerActive=127.0.0.1/ServerActive=192.168.0.11/g' /etc/zabbix/zabbix_agentd.conf
 sudo systemctl restart zabbix-agent.service 
 ```
 
