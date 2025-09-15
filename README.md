@@ -40,7 +40,7 @@ Lates data:
 Пример графика одной из метрик:
 <img src = "img/task_2_04.png" width = 100%>
 
-Вывод лога zabbix-агента:
+Вывод логов zabbix-агента:
 <img src = "img/task_2_05.png" width = 100%>
 
 
